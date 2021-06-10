@@ -12,7 +12,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log('숫자 입력');``
+console.log('숫자 입력');
 
 var input = [];
 
