@@ -14,6 +14,7 @@ const rl = readline.createInterface({
 
 console.log('숫자 입력');
 
+
 var input = [];
 
 rl.on('line', function(line) {
