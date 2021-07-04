@@ -16,9 +16,6 @@ app.listen(app.get('port'), ()=>{
     console.log('Express Server running on 8080 port')
 });
 
-app.on('close', ()=>{
-    console.log("Express Server has Stopped");
-});
 
 /**
  
