@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DB Board</title>
+    </head>
+    <body>
+        <h1>Welcome, this is Test Board</h1>
+        <p>
+            <h2>This is board detail</h2>
+            <h3><%= TITLE %></h3>
+            <h4><%= WRITER %> </h4>
+            <p><%-  CONTENT.replace(/\n/gi,'<br>')%> </p>
+        </p>
+        <p><a href="/">목록</a> </p>
+    </body>
+</html>

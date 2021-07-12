@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DB Board</title>
+        <script>
+            function formSubmit(){
+                document.registForm.submit();
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcome, this is Test Board</h1>
+        <p>
+            <h2>This is board page to regist</h2>
+            <form name="registForm" method="POST" action="/regist">
+                <input type="text" name="title" placeholder="제목">
+                <br/>
+                <input type="text" name="writer" placeholder="글쓴이">
+                <br/>
+                <textarea name="content"></textarea>
+            </form>
+        </p>
+        <p><a href="/">목록</a><input type="button" value="저장" onclick="formSubmit();" /> </p>
+    </body>
+</html>
